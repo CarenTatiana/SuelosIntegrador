@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/panel"
+    android:alpha="0.8"
+    tools:context=".AgregarCultivoActivity">
+
+
+    <EditText
+        android:id="@+id/edtCultivoNombre"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Nombre del Cultivo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btnInsee"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:text="Insertar"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <ListView
+        android:id="@+id/CultivoList_Nombres"
+        android:layout_width="266dp"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91"
+        />
+
+    <TextView
+        android:id="@+id/CultivotextView"
+        android:layout_width="305dp"
+        android:layout_height="36dp"
+        android:text="Cultivos"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
+
+    <Button
+        android:id="@+id/btnCultivoActualizar"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:text="Actualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btnCultivoEliminar"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:text="Eliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/edtCultivoRendimiento"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Rendimiento por hectarea(Kg/ha)"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/edtCultivoMax"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="pH maximo"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/edtCultivoMin"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="pH minimo"
+        android:inputType="number|numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/edtCultivoPrecio"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Precio-Kg"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/edtCultivoCosto"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Costo de inversion (hectarea)"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        android:textColor="#000000"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

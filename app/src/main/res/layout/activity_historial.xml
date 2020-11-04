@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:background="@drawable/oscuro"
+    tools:context=".historial">
+
+    <TextView
+        android:id="@+id/tvDatos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginVertical="160dp"
+        android:background="#ffffff"
+        android:textColor="#000000"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:text="Estos datos hacen parte de la consulta que realizo, para hacer un estudio del suelo,
+y del cultivo que planea sembrar, es importante tener en cuenta la temperatura en
+Facatativá; Debido a que influye un 45% en las cosechas por tal motivo le invitamos
+a visitar el historial de temperatura.
+"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:background="#ffffff">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="24dp"
+        android:text="Aceptar"
+        android:background="#ffffff"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "282422543108",
+    "firebase_url": "https://suelos-e5360.firebaseio.com",
+    "project_id": "suelos-e5360",
+    "storage_bucket": "suelos-e5360.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282422543108:android:becc0610b32a8226514651",
+        "android_client_info": {
+          "package_name": "com.example.suelos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282422543108-cfietj30u4dipamm09k1qbk839hsgp5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq4hIlHHCTO8oNPTTO2JP96gdkWtNMZmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282422543108-cfietj30u4dipamm09k1qbk839hsgp5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
